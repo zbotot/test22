@@ -10,8 +10,8 @@ import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, st
 
 print ("\n\n ---  WELCOME  ---\n")
 
-cl = LINE()
-#cl = LINE(authTokenDPK="EvBoSHd3NymRnF3lzZdb.0PzLwS72Fl1EGGJMnIN3IW.1U1vPtTqpd/BytwfeUSD95WRIubQG5rPQeunnLZ9/sk=")
+#cl = LINE()
+cl = LINE(authTokenDPK="EwjT1n3sVj9ReGLTseA6.HQh4RpqRYzqfruxsRHZtfG.FMBAGFejsvUIs/0SRq+QuWvX5b7akYuWpCJfZ8oTo4s=")
 cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = LINEChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
@@ -26,7 +26,7 @@ call = cl
 Dpk = [cl]
 mid = cl.profile.mid
 DpkBot=[mid]
-Owner=["ud296655acef67cbd5e8208e63629f78b"]
+Owner=["u86a1f8acf42bc994054545d2ae1cd316"]
 DpkFamily = DpkBot + Dpk + Owner
 
 contact = cl.getProfile()
@@ -39,7 +39,7 @@ Wait = {
     "UnsendPesan":False,
     "SpamInvite":False,
     "Contact":False,
-    "GName":"ARIFISTIFIK",
+    "GName":"SC",
     "AutoRespon":True,
     "MentionText":"dîh ηgëtåg äķü mülü... Kămư kë§ëÞîåη ¥åk...???",
     "KickRespon":False,
@@ -53,7 +53,7 @@ Wait = {
     "Invite":False,
     "Copy":False,
     "autoAdd":True,
-    "PesanAdd":"ᴋᴇɴᴀᴘᴀ ʙᴀʀᴜ sᴇᴋᴀʀᴀɴɢ ᴋᴀᴍᴜ ᴀᴅᴅ ᴀᴋᴜ? 😅",
+    "PesanAdd":"salam..",
     "ContactAdd":{},
     "autoBlock":False,
     "autoJoin":False,
@@ -80,7 +80,7 @@ Wait = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "ud296655acef67cbd5e8208e63629f78b":True #MID ADMIN
+        "u86a1f8acf42bc994054545d2ae1cd316":True #MID ADMIN
     },
 }
 
